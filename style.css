@@ -1,0 +1,190 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow-y:visible;
+        
+}
+
+.navigation {
+    width: 860px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+title {
+    font-style: italic;
+
+}
+
+
+.header .menu {
+    list-style: none;
+}
+
+.logo {
+    vertical-align: top;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    float: left;
+}
+
+.menu li {
+    display: inline-block;
+    /* добавил*/
+    margin-right: 30px;
+    margin-top: 50px;
+    font-style: normal;
+    font-size: 20px;
+    list-style-type: none;
+
+}
+
+.menu li a {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+.menu{
+    text-align: right;
+}
+/*.menu li:hover:after {/*добавляем стрелки*/
+/*    content: " >>";
+    color: blueviolet;
+}*/
+
+.menu li a:hover {
+    color: black;
+}
+.yaga h3{
+    font-family: Snell Roundhand, cursive;
+    
+}
+.yaga p {
+    float: left;
+    margin-left: 10px;
+    
+}
+
+.vciciom {
+    font-family: Snell Roundhand, cursive;
+    overflow: hidden;
+    margin-top: 70px;
+    padding-left: 40px;
+    margin-right: 20px;
+    color: #1E90FF;
+}
+.gtext{
+    clear: both;
+    padding: 5px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.specification li {
+    font-style: oblique;
+    font-size: 16px;
+    list-style-type: square;
+    color: brown;
+
+}
+
+h3 {
+    background: #f8f8f8;
+    color: green;
+    width: 100%;
+}
+
+h4 {
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+img[alt] {
+    /*border: 1px;*/
+    border-color: darkgoldenrod;
+    border-style: outset;
+
+}
+
+hr {
+    /*полоска*/
+    height: 3px;
+    width: inherit;
+    background-color: goldenrod;
+    border-style: hidden;
+}
+
+.footer {
+    /*подвал*/
+    width: 860px;
+    margin-bottom: 5px;
+    clear: both;
+    padding: 2px;
+    background-color: darkgoldenrod;
+    height: 60px;
+    text-align: right;
+
+}
+
+.rights {
+    margin-right: 20px;
+    margin-top: 40px;
+
+}
+
+.contacts {
+    font-size: 20px;
+    font-style: oblique;
+    color: blueviolet;
+}
+
+input[type="text"]:focus {
+    background-color: antiquewhite;
+    color: darkslateblue;
+}
+
+input {
+    text-transform: capitalize;
+}
+
+.req {
+    color: red;
+}
+
+.ptext:first-letter {
+    font-size: 23px;
+    color: darkgreen;
+}
+
+.tlist {
+    margin-left: 20px;
+    display: block;
+    text-align: center;
+    float: left; 
+    
+}
+    
+.tlist1{
+    display: inline-block;
+    margin-left: 20px;
+}
+.google_map{
+    width: 100%;
+    height: 374px;
+}
+.attention b{
+    color: red;
+}
+.foto{
+    float:left;
+}
+.description{
+    overflow:auto;
+    padding-left: 20px;
+    
+}
+.description h4{
+    float: none;
+}
